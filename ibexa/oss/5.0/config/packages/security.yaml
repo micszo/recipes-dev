@@ -64,10 +64,10 @@ security:
         #        entry_point: lexik_jwt_authentication.jwt_token_authenticator
         #    stateless: true
 
-        #ibexa_jwt_graphql:
-        #    request_matcher: Ibexa\GraphQL\Security\NonAdminGraphQLRequestMatcher
-        #    stateless: true
-        #    jwt: ~
+        ibexa_jwt_graphql:
+            request_matcher: Ibexa\GraphQL\Security\NonAdminGraphQLRequestMatcher
+            stateless: true
+            jwt: ~
 
         ibexa_front:
             pattern: ^/
