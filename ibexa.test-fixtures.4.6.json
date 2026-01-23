@@ -10,7 +10,13 @@
                 "copy-from-package": {
                     "config/headless.yaml": "%CONFIG_DIR%/packages/test_fixtures/headless.yaml",
                     "config/experience.yaml": "%CONFIG_DIR%/packages/test_fixtures/experience.yaml",
-                    "config/commerce.yaml": "%CONFIG_DIR%/packages/test_fixtures/commerce.yaml"
+                    "config/commerce.yaml": "%CONFIG_DIR%/packages/test_fixtures/commerce.yaml",
+                    "src/bundle/Resources/templates/acronym.html.twig": "templates/themes/standard/field_type/ezrichtext/custom_tags/acronym.html.twig",
+                    "src/bundle/Resources/templates/highlighted_word.html.twig": "templates/themes/standard/field_type/ezrichtext/custom_styles/highlighted_word.html.twig",
+                    "src/bundle/Resources/templates/highlighted_block.html.twig": "templates/themes/standard/field_type/ezrichtext/custom_styles/highlighted_block.html.twig",
+                    "src/bundle/Resources/translations/custom_tags.en.yaml": "translations/custom_tags.en.yaml",
+                    "src/bundle/Resources/translations/custom_styles.en.yaml": "translations/custom_styles.en.yaml",
+                    "src/bundle/Resources/translations/online_editor.en.yaml": "translations/online_editor.en.yaml"
                 },
                 "add-lines": [
                     {
@@ -23,27 +29,27 @@
                         "file": "config/services.yaml",
                         "position": "after_target",
                         "target": "imports:",
-                        "content": "  - { resource: packages/test_fixtures/headless.yaml }:",
+                        "content": "  - { resource: packages/test_fixtures/headless.yaml }",
                         "requires": "ibexa/headless"
                     },
                     {
                         "file": "config/services.yaml",
                         "position": "after_target",
                         "target": "imports:",
-                        "content": "  - { resource: packages/test_fixtures/experience.yaml }:",
+                        "content": "  - { resource: packages/test_fixtures/experience.yaml }",
                         "requires": "ibexa/experience"
                     },
                     {
                         "file": "config/services.yaml",
                         "position": "after_target",
                         "target": "imports:",
-                        "content": "  - { resource: packages/test_fixtures/commerce.yaml }:",
+                        "content": "  - { resource: packages/test_fixtures/commerce.yaml }",
                         "requires": "ibexa/commerce"
                     }
                 ]
             },
             "files": [],
-            "ref": "eeb2d568787cd8658db8454383d11c78a42be21f"
+            "ref": "b175398fb96b485a1c0274f049b17ebf0ddd7053"
         }
     }
 }

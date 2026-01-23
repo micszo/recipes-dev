@@ -1815,6 +1815,9 @@
                         "    \"sass-loader\": \"^12.5.0\",",
                         "    \"file-loader\": \"^6.0.0\"",
                         "  },",
+                        "  \"resolutions\": {",
+                        "    \"@types/glob\": \"8.1.0\"",
+                        "  },",
                         "  \"license\": \"UNLICENSED\",",
                         "  \"private\": true,",
                         "  \"scripts\": {",
@@ -2176,7 +2179,7 @@
                     "executable": false
                 }
             },
-            "ref": "ca7c0f3ea8b0c838e9f28e44685fec6e19cc7143"
+            "ref": "33aae7da85d2011579c4d4294f00892f3a8d3152"
         }
     }
 }

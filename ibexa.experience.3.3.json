@@ -1984,6 +1984,9 @@
                         "    \"sass-loader\": \"^12.5.0\",",
                         "    \"file-loader\": \"^6.0.0\"",
                         "  },",
+                        "  \"resolutions\": {",
+                        "    \"@types/glob\": \"8.1.0\"",
+                        "  },",
                         "  \"license\": \"UNLICENSED\",",
                         "  \"private\": true,",
                         "  \"scripts\": {",
@@ -2345,7 +2348,7 @@
                     "executable": false
                 }
             },
-            "ref": "189005a2ddfb3e355df281c0c60aaa5849ca26d4"
+            "ref": "232fbe7c6a0d1bbe980da904bff822c228015b0c"
         }
     }
 }

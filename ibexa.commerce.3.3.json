@@ -2088,6 +2088,9 @@
                         "    \"sass-loader\": \"^12.5.0\",",
                         "    \"file-loader\": \"^6.0.0\"",
                         "  },",
+                        "  \"resolutions\": {",
+                        "    \"@types/glob\": \"8.1.0\"",
+                        "  },",
                         "  \"license\": \"UNLICENSED\",",
                         "  \"private\": true,",
                         "  \"scripts\": {",
@@ -2449,7 +2452,7 @@
                     "executable": false
                 }
             },
-            "ref": "c3c78f81e6f98c6a8e93a63947fc55f7b30846ac"
+            "ref": "0f22b055b54e07cdb2b98e8dd2666070aadfe2d5"
         }
     }
 }

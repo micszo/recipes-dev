@@ -60,6 +60,9 @@
                     "Ibexa\\Bundle\\CorePersistence\\IbexaCorePersistenceBundle": [
                         "all"
                     ],
+                    "Ibexa\\Bundle\\CoreSearch\\IbexaCoreSearchBundle": [
+                        "all"
+                    ],
                     "Ibexa\\Bundle\\LegacySearchEngine\\IbexaLegacySearchEngineBundle": [
                         "all"
                     ],
@@ -144,6 +147,9 @@
                         "all"
                     ],
                     "Lexik\\Bundle\\JWTAuthenticationBundle\\LexikJWTAuthenticationBundle": [
+                        "all"
+                    ],
+                    "Ibexa\\Bundle\\TwigComponents\\IbexaTwigComponentsBundle": [
                         "all"
                     ]
                 },
@@ -1859,6 +1865,19 @@
                     ],
                     "executable": false
                 },
+                "config/packages/ibexa_richtext.yaml": {
+                    "contents": [
+                        "ibexa_fieldtype_richtext:",
+                        "    enabled_attribute_types:",
+                        "        - number",
+                        "        - string",
+                        "        - boolean",
+                        "        - choice",
+                        "        - link",
+                        ""
+                    ],
+                    "executable": false
+                },
                 "config/packages/ibexa_solr.yaml": {
                     "contents": [
                         "# Base configuration for Solr, for more options see: https://doc.ezplatform.com/en/latest/guide/search/#solr-bundle",
@@ -1883,6 +1902,20 @@
                     ],
                     "executable": false
                 },
+                "config/packages/ibexa_twig_components.yaml": {
+                    "contents": [
+                        "## Uncomment and change configuration below if you wish to configure twig components",
+                        "",
+                        "#ibexa_twig_components:",
+                        "#    example_components_group:",
+                        "#        example_html_component:",
+                        "#            type: html",
+                        "#            arguments:",
+                        "#                content: 'some example html content'",
+                        ""
+                    ],
+                    "executable": false
+                },
                 "config/packages/ibexa_welcome_page.yaml": {
                     "contents": [
                         "# You can safely delete this file to disable welcome page",
@@ -1897,6 +1930,17 @@
                         "                            Id\\Location: 2",
                         "                        params:",
                         "                            project_dir: '%kernel.project_dir%'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/packages/mailer.yaml": {
+                    "contents": [
+                        "framework:",
+                        "    mailer:",
+                        "        dsn: '%env(MAILER_DSN)%'",
+                        "        envelope:",
+                        "            sender: 'notifications@example.com'",
                         ""
                     ],
                     "executable": false
@@ -2268,7 +2312,11 @@
                         "    \"@ckeditor/ckeditor5-widget\": \"^40.1.0\",",
                         "    \"@ckeditor/ckeditor5-theme-lark\": \"^40.1.0\",",
                         "    \"@ckeditor/ckeditor5-code-block\": \"^40.1.0\",",
+                        "    \"@ckeditor/ckeditor5-special-characters\": \"^40.1.0\",",
                         "    \"@svgr/webpack\": \"^8.1.0\"",
+                        "  },",
+                        "  \"resolutions\": {",
+                        "    \"@types/glob\": \"8.1.0\"",
                         "  },",
                         "  \"license\": \"UNLICENSED\",",
                         "  \"private\": true,",
@@ -2935,7 +2983,7 @@
                     "executable": false
                 }
             },
-            "ref": "9fac53ff4f01e71b44256a8b158f3035f554e84a"
+            "ref": "23d6755fb1924458386ed3e455c87d4ac527f613"
         }
     }
 }

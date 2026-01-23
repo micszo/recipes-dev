@@ -60,6 +60,9 @@
                     "Ibexa\\Bundle\\CorePersistence\\IbexaCorePersistenceBundle": [
                         "all"
                     ],
+                    "Ibexa\\Bundle\\CoreSearch\\IbexaCoreSearchBundle": [
+                        "all"
+                    ],
                     "Ibexa\\Bundle\\LegacySearchEngine\\IbexaLegacySearchEngineBundle": [
                         "all"
                     ],
@@ -213,6 +216,9 @@
                         "all"
                     ],
                     "Ibexa\\Bundle\\AppSwitcher\\IbexaAppSwitcherBundle": [
+                        "all"
+                    ],
+                    "Ibexa\\Bundle\\TwigComponents\\IbexaTwigComponentsBundle": [
                         "all"
                     ]
                 },
@@ -2127,6 +2133,19 @@
                     ],
                     "executable": false
                 },
+                "config/packages/ibexa_richtext.yaml": {
+                    "contents": [
+                        "ibexa_fieldtype_richtext:",
+                        "    enabled_attribute_types:",
+                        "        - number",
+                        "        - string",
+                        "        - boolean",
+                        "        - choice",
+                        "        - link",
+                        ""
+                    ],
+                    "executable": false
+                },
                 "config/packages/ibexa_site_context.yaml": {
                     "contents": [
                         "ibexa:",
@@ -2185,6 +2204,20 @@
                     ],
                     "executable": false
                 },
+                "config/packages/ibexa_twig_components.yaml": {
+                    "contents": [
+                        "## Uncomment and change configuration below if you wish to configure twig components",
+                        "",
+                        "#ibexa_twig_components:",
+                        "#    example_components_group:",
+                        "#        example_html_component:",
+                        "#            type: html",
+                        "#            arguments:",
+                        "#                content: 'some example html content'",
+                        ""
+                    ],
+                    "executable": false
+                },
                 "config/packages/ibexa_welcome_page.yaml": {
                     "contents": [
                         "# You can safely delete this file to disable welcome page",
@@ -2199,6 +2232,17 @@
                         "                            Id\\Location: 2",
                         "                        params:",
                         "                            project_dir: '%kernel.project_dir%'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/packages/mailer.yaml": {
+                    "contents": [
+                        "framework:",
+                        "    mailer:",
+                        "        dsn: '%env(MAILER_DSN)%'",
+                        "        envelope:",
+                        "            sender: 'notifications@example.com'",
                         ""
                     ],
                     "executable": false
@@ -2238,6 +2282,8 @@
                         "    providers:",
                         "        ibexa:",
                         "            id: ibexa.security.user_provider",
+                        "    #    shared:",
+                        "    #        id: Ibexa\\Collaboration\\Security\\User\\ShareableLinkUserProvider",
                         "    #!        in_memory:",
                         "    #!            memory: ~",
                         "",
@@ -2320,9 +2366,22 @@
                         "        #        csrf_token_generator: security.csrf.token_manager",
                         "        #    logout: ~",
                         "",
+                        "        # Ibexa collaboration",
+                        "        # Uncomment ibexa_shareable_link firewall to enable external participants authentication including public links",
+                        "        # Uncomment also `shared` user provider above under security providers key",
+                        "        #ibexa_shareable_link:",
+                        "        #    request_matcher: Ibexa\\Collaboration\\Security\\RequestMatcher\\ShareableLinkRequestMatcher",
+                        "        #    pattern: ^/",
+                        "        #    provider: shared",
+                        "        #    stateless: true",
+                        "        #    user_checker: Ibexa\\Core\\MVC\\Symfony\\Security\\UserChecker",
+                        "        #    guard:",
+                        "        #        authenticator: Ibexa\\Collaboration\\Security\\Authenticator\\ShareableLinkAuthenticator",
+                        "",
                         "        ibexa_front:",
                         "            pattern: ^/",
                         "            user_checker: Ibexa\\Core\\MVC\\Symfony\\Security\\UserChecker",
+                        "            provider: ibexa",
                         "            anonymous: ~",
                         "            ibexa_rest_session: ~",
                         "            form_login:",
@@ -2752,7 +2811,11 @@
                         "    \"@ckeditor/ckeditor5-widget\": \"^40.1.0\",",
                         "    \"@ckeditor/ckeditor5-theme-lark\": \"^40.1.0\",",
                         "    \"@ckeditor/ckeditor5-code-block\": \"^40.1.0\",",
+                        "    \"@ckeditor/ckeditor5-special-characters\": \"^40.1.0\",",
                         "    \"@svgr/webpack\": \"^8.1.0\"",
+                        "  },",
+                        "  \"resolutions\": {",
+                        "    \"@types/glob\": \"8.1.0\"",
                         "  },",
                         "  \"license\": \"UNLICENSED\",",
                         "  \"private\": true,",
@@ -3416,7 +3479,7 @@
                     "executable": false
                 }
             },
-            "ref": "7cc60d3f3de3369fa29218f9d6a0550b6be29f61"
+            "ref": "5c2bfe3e313430d7dde7c7f6fd9a459a36e98d8c"
         }
     }
 }

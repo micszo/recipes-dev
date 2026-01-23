@@ -62,6 +62,8 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [ibexa/cart](https://packagist.org/packages/ibexa/cart) | [5.0](ibexa/cart/5.0) |  |
 | [ibexa/cdp](https://packagist.org/packages/ibexa/cdp) | [5.0](ibexa/cdp/5.0) | `cdp`, `ibexa-cdp`, `ibexacdp` |
 | [ibexa/checkout](https://packagist.org/packages/ibexa/checkout) | [5.0](ibexa/checkout/5.0) |  |
+| [ibexa/ckeditor-premium](https://packagist.org/packages/ibexa/ckeditor-premium) | [5.0](ibexa/ckeditor-premium/5.0) |  |
+| [ibexa/collaboration](https://packagist.org/packages/ibexa/collaboration) | [5.0](ibexa/collaboration/5.0) |  |
 | [ibexa/commerce](https://packagist.org/packages/ibexa/commerce) | [5.0](ibexa/commerce/5.0) | `cms-commerce`, `cmscommerce`, `commerce`, `dxp-commerce`, `dxpcommerce`, `ibexa-commerce`, `ibexacommerce` |
 | [ibexa/commerce-admin-ui](https://packagist.org/packages/ibexa/commerce-admin-ui) | [5.0](ibexa/commerce-admin-ui/5.0) |  |
 | [ibexa/commerce-base-design](https://packagist.org/packages/ibexa/commerce-base-design) | [5.0](ibexa/commerce-base-design/5.0) |  |
@@ -76,9 +78,15 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [ibexa/commerce-shop-ui](https://packagist.org/packages/ibexa/commerce-shop-ui) | [5.0](ibexa/commerce-shop-ui/5.0) |  |
 | [ibexa/commerce-transaction](https://packagist.org/packages/ibexa/commerce-transaction) | [5.0](ibexa/commerce-transaction/5.0) |  |
 | [ibexa/compatibility-layer](https://packagist.org/packages/ibexa/compatibility-layer) | [5.0](ibexa/compatibility-layer/5.0) |  |
+| [ibexa/connect](https://packagist.org/packages/ibexa/connect) | [5.0](ibexa/connect/5.0) |  |
 | [ibexa/connector-actito](https://packagist.org/packages/ibexa/connector-actito) | [5.0](ibexa/connector-actito/5.0) | `actito`, `ibexa-connector-actito`, `ibexaconnectoractito` |
+| [ibexa/connector-ai](https://packagist.org/packages/ibexa/connector-ai) | [5.0](ibexa/connector-ai/5.0) |  |
+| [ibexa/connector-anthropic](https://packagist.org/packages/ibexa/connector-anthropic) | [5.0](ibexa/connector-anthropic/5.0) |  |
 | [ibexa/connector-dam](https://packagist.org/packages/ibexa/connector-dam) | [5.0](ibexa/connector-dam/5.0) |  |
+| [ibexa/connector-gemini](https://packagist.org/packages/ibexa/connector-gemini) | [5.0](ibexa/connector-gemini/5.0) |  |
+| [ibexa/connector-openai](https://packagist.org/packages/ibexa/connector-openai) | [5.0](ibexa/connector-openai/5.0) |  |
 | [ibexa/connector-payum](https://packagist.org/packages/ibexa/connector-payum) | [5.0](ibexa/connector-payum/5.0) |  |
+| [ibexa/connector-quable](https://packagist.org/packages/ibexa/connector-quable) | [5.0](ibexa/connector-quable/5.0) |  |
 | [ibexa/connector-qualifio](https://packagist.org/packages/ibexa/connector-qualifio) | [5.0](ibexa/connector-qualifio/5.0) |  |
 | [ibexa/connector-unsplash](https://packagist.org/packages/ibexa/connector-unsplash) | [5.0](ibexa/connector-unsplash/5.0) |  |
 | [ibexa/content](https://packagist.org/packages/ibexa/content) | [4.5](ibexa/content/4.5) | `cms-content`, `cmscontent`, `content`, `dxp-content`, `dxpcontent`, `ibexa-content`, `ibexacontent` |
@@ -86,11 +94,15 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [ibexa/content-tree](https://packagist.org/packages/ibexa/content-tree) | [5.0](ibexa/content-tree/5.0) |  |
 | [ibexa/core](https://packagist.org/packages/ibexa/core) | [5.0](ibexa/core/5.0) |  |
 | [ibexa/core-persistence](https://packagist.org/packages/ibexa/core-persistence) | [5.0](ibexa/core-persistence/5.0) |  |
+| [ibexa/core-search](https://packagist.org/packages/ibexa/core-search) | [5.0](ibexa/core-search/5.0) |  |
 | [ibexa/corporate-account](https://packagist.org/packages/ibexa/corporate-account) | [5.0](ibexa/corporate-account/5.0) |  |
 | [ibexa/corporate-account-commerce-bridge](https://packagist.org/packages/ibexa/corporate-account-commerce-bridge) | [5.0](ibexa/corporate-account-commerce-bridge/5.0) |  |
 | [ibexa/cron](https://packagist.org/packages/ibexa/cron) | [5.0](ibexa/cron/5.0) |  |
+| [ibexa/dam-user](https://packagist.org/packages/ibexa/dam-user) | [5.0](ibexa/dam-user/5.0) |  |
 | [ibexa/dashboard](https://packagist.org/packages/ibexa/dashboard) | [5.0](ibexa/dashboard/5.0) |  |
 | [ibexa/design-engine](https://packagist.org/packages/ibexa/design-engine) | [5.0](ibexa/design-engine/5.0) |  |
+| [ibexa/discounts](https://packagist.org/packages/ibexa/discounts) | [5.0](ibexa/discounts/5.0) |  |
+| [ibexa/discounts-codes](https://packagist.org/packages/ibexa/discounts-codes) | [5.0](ibexa/discounts-codes/5.0) |  |
 | [ibexa/docker](https://packagist.org/packages/ibexa/docker) | [5.0](ibexa/docker/5.0) |  |
 | [ibexa/doctrine-schema](https://packagist.org/packages/ibexa/doctrine-schema) | [5.0](ibexa/doctrine-schema/5.0) |  |
 | [ibexa/elasticsearch](https://packagist.org/packages/ibexa/elasticsearch) | [5.0](ibexa/elasticsearch/5.0) |  |
@@ -101,6 +113,7 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [ibexa/fieldtype-page](https://packagist.org/packages/ibexa/fieldtype-page) | [5.0](ibexa/fieldtype-page/5.0) |  |
 | [ibexa/fieldtype-query](https://packagist.org/packages/ibexa/fieldtype-query) | [5.0](ibexa/fieldtype-query/5.0) |  |
 | [ibexa/fieldtype-richtext](https://packagist.org/packages/ibexa/fieldtype-richtext) | [5.0](ibexa/fieldtype-richtext/5.0) |  |
+| [ibexa/fieldtype-richtext-rte](https://packagist.org/packages/ibexa/fieldtype-richtext-rte) | [5.0](ibexa/fieldtype-richtext-rte/5.0) |  |
 | [ibexa/form-builder](https://packagist.org/packages/ibexa/form-builder) | [5.0](ibexa/form-builder/5.0) |  |
 | [ibexa/graphql](https://packagist.org/packages/ibexa/graphql) | [5.0](ibexa/graphql/5.0) |  |
 | [ibexa/headless](https://packagist.org/packages/ibexa/headless) | [5.0](ibexa/headless/5.0) | `cms-headless`, `cmsheadless`, `dxp-headless`, `dxpheadless`, `headless`, `ibexa-headless`, `ibexaheadless` |
@@ -110,6 +123,7 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [ibexa/image-editor](https://packagist.org/packages/ibexa/image-editor) | [5.0](ibexa/image-editor/5.0) |  |
 | [ibexa/image-picker](https://packagist.org/packages/ibexa/image-picker) | [5.0](ibexa/image-picker/5.0) |  |
 | [ibexa/installer](https://packagist.org/packages/ibexa/installer) | [5.0](ibexa/installer/5.0) |  |
+| [ibexa/integrated-help](https://packagist.org/packages/ibexa/integrated-help) | [5.0](ibexa/integrated-help/5.0) |  |
 | [ibexa/measurement](https://packagist.org/packages/ibexa/measurement) | [5.0](ibexa/measurement/5.0) |  |
 | [ibexa/migrations](https://packagist.org/packages/ibexa/migrations) | [5.0](ibexa/migrations/5.0) |  |
 | [ibexa/namespace-compatibility](https://packagist.org/packages/ibexa/namespace-compatibility) | [1.0](ibexa/namespace-compatibility/1.0) |  |
@@ -125,12 +139,15 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [ibexa/personalization](https://packagist.org/packages/ibexa/personalization) | [5.0](ibexa/personalization/5.0) |  |
 | [ibexa/personalization-client](https://packagist.org/packages/ibexa/personalization-client) | [5.0](ibexa/personalization-client/5.0) |  |
 | [ibexa/product-catalog](https://packagist.org/packages/ibexa/product-catalog) | [5.0](ibexa/product-catalog/5.0) |  |
+| [ibexa/product-catalog-date-time-attribute](https://packagist.org/packages/ibexa/product-catalog-date-time-attribute) | [5.0](ibexa/product-catalog-date-time-attribute/5.0) |  |
+| [ibexa/product-catalog-symbol-attribute](https://packagist.org/packages/ibexa/product-catalog-symbol-attribute) | [5.0](ibexa/product-catalog-symbol-attribute/5.0) |  |
 | [ibexa/rector](https://packagist.org/packages/ibexa/rector) | [5.0](ibexa/rector/5.0) |  |
 | [ibexa/rest](https://packagist.org/packages/ibexa/rest) | [5.0](ibexa/rest/5.0) |  |
 | [ibexa/scheduler](https://packagist.org/packages/ibexa/scheduler) | [5.0](ibexa/scheduler/5.0) |  |
 | [ibexa/search](https://packagist.org/packages/ibexa/search) | [5.0](ibexa/search/5.0) |  |
 | [ibexa/segmentation](https://packagist.org/packages/ibexa/segmentation) | [5.0](ibexa/segmentation/5.0) |  |
 | [ibexa/seo](https://packagist.org/packages/ibexa/seo) | [5.0](ibexa/seo/5.0) |  |
+| [ibexa/share](https://packagist.org/packages/ibexa/share) | [5.0](ibexa/share/5.0) |  |
 | [ibexa/shipping](https://packagist.org/packages/ibexa/shipping) | [5.0](ibexa/shipping/5.0) |  |
 | [ibexa/site-context](https://packagist.org/packages/ibexa/site-context) | [5.0](ibexa/site-context/5.0) |  |
 | [ibexa/site-factory](https://packagist.org/packages/ibexa/site-factory) | [5.0](ibexa/site-factory/5.0) |  |
@@ -141,6 +158,7 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [ibexa/taxonomy](https://packagist.org/packages/ibexa/taxonomy) | [5.0](ibexa/taxonomy/5.0) |  |
 | [ibexa/test-fixtures](https://packagist.org/packages/ibexa/test-fixtures) | [5.0](ibexa/test-fixtures/5.0) |  |
 | [ibexa/tree-builder](https://packagist.org/packages/ibexa/tree-builder) | [5.0](ibexa/tree-builder/5.0) |  |
+| [ibexa/twig-components](https://packagist.org/packages/ibexa/twig-components) | [5.0](ibexa/twig-components/5.0) |  |
 | [ibexa/user](https://packagist.org/packages/ibexa/user) | [5.0](ibexa/user/5.0) |  |
 | [ibexa/version-comparison](https://packagist.org/packages/ibexa/version-comparison) | [5.0](ibexa/version-comparison/5.0) |  |
 | [ibexa/workflow](https://packagist.org/packages/ibexa/workflow) | [5.0](ibexa/workflow/5.0) |  |
