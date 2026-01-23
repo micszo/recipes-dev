@@ -1,0 +1,9 @@
+dam_unsplash:
+    application_id: lorem
+    utm_source: ipsum
+    variations:
+        770px:
+            fm: jpg
+            q: 80
+            w: 770
+            fit: max
